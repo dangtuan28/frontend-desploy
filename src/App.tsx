@@ -1,7 +1,7 @@
 import 'antd/dist/reset.css';
 import './App.css';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { Layout, Menu } from 'antd';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Layout} from 'antd';
 
 import Categories from './Pages/Categories';
 import Products from './Pages/Products/indexProducts';
@@ -11,7 +11,7 @@ import NavigationBar from './components/NavigationBar';
 import numeral from 'numeral';
 import 'numeral/locales/vi';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Header, Footer, Content } = Layout;
 
 const headerStyle: React.CSSProperties = {
   backgroundColor: '#001529',
